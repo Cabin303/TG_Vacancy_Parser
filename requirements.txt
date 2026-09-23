@@ -1,9 +1,4 @@
-beautifulsoup4==4.15.0
-certifi==2026.6.17
-charset-normalizer==3.4.9
-idna==3.18
-lxml==6.1.1
-requests==2.34.2
-soupsieve==2.8.4
-typing_extensions==4.16.0
-urllib3==2.7.0
+# Runtime-зависимости для установки:  python -m pip install -r requirements.txt
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.0
