@@ -1,0 +1,8 @@
+#!/bin/bash
+# Telegram Vacancy Parser + Splitter — быстрый запуск приложения.
+# Работает без cd: путь берётся из расположения самого файла,
+# поэтому пробелы и кириллица в пути безопасны.
+
+BASE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
+
+exec "$BASE/.venv/bin/python" "$BASE/main.py" "$@"

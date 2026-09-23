@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS
+.DS_Store
+
+# Локальные рабочие данные и результаты (не коммитим)
+channels.txt
+seen_posts.json
+telegram_found_posts.txt
+gui_settings.json
+vacancy_filters.json
+GPT_batches/
+logs/
